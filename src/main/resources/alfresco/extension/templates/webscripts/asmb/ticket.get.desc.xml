@@ -1,0 +1,7 @@
+<webscript>
+    <shortname>Ticket Webscript</shortname>
+    <description>Returns the user ticket for a certain user</description>
+    <url>/asmb/ticket?u={username}</url>
+    <format default="json"/>
+    <authentication>admin</authentication>
+</webscript>
